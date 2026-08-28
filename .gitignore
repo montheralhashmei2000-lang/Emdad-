@@ -1,0 +1,54 @@
+.idea/
+.packages
+.pub/
+.buildlog
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.flutter-plugins-dependencies
+.android/
+.ios/
+.flutter-plugins
+.idea/
+*.iml
+*.ipr
+*.iws
+*.keystore
+.gradle
+/local.properties
+/.dart_tool/
+/.packages
+/.pub-cache/
+/**/GeneratedPluginRegistrant.java
+.DS_Store
+*.log
+pubspec.lock
+android/.gradle
+android/.idea
+android/local.properties
+android/app/build/
+build/
+.packages
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+
+# Generated files
+GeneratedPluginRegistrant.java
+
+# Android Studio
+captures/
+
+# macOS
+*.DS_Store
