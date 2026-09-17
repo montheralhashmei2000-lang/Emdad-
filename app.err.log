@@ -1,0 +1,195 @@
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 488, in _do_load
+    panel.load_data()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\items_management_view.py", line 369, in load_data
+    self._load_categories()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\items_management_view.py", line 372, in _load_categories
+    ok, data = self.api_service.get_categories()
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: ApiService.get_categories() missing 1 required positional argument: 'limit'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from .theme import COLORS
+ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from .theme import COLORS
+ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from .theme import COLORS
+ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 483, in _do_load
+    panel = self._lazy_routes[route_name]()
+  File "E:\Emdad_system\main_window.py", line 414, in <lambda>
+    'الموردون': lambda: SuppliersView(parent=self, api_service=self.api_service),
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 21, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\suppliers_view.py", line 195, in load_data
+    data = self.api_service.get(self._suppliers_endpoint()) or []
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiService' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\Emdad_system\views\receive_view.py", line 433, in _load_history
+    ok, movs = self.api_service.get_movements_filtered(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        movement_type='IN', warehouse_id=hist_wh_id, supplier_id=hist_sup_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ApiService.get_movements_filtered() got an unexpected keyword argument 'warehouse_id'
+Traceback (most recent call last):
+  File "E:\Emdad_system\views\receive_view.py", line 433, in _load_history
+    ok, movs = self.api_service.get_movements_filtered(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        movement_type='IN', warehouse_id=hist_wh_id, supplier_id=hist_sup_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ApiService.get_movements_filtered() got an unexpected keyword argument 'warehouse_id'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 488, in _do_load
+    panel.load_data()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\receive_view.py", line 522, in load_data
+    ok_sup, sups = self.api_service.get_suppliers()
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: ApiService.get_suppliers() missing 1 required positional argument: 'limit'
+QFont::setPointSize: Point size <= 0 (-1), must be greater than 0
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from .theme import COLORS
+ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "E:\Emdad_system\views\receive_view.py", line 433, in _load_history
+    ok, movs = self.api_service.get_movements_filtered(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        movement_type='IN', warehouse_id=hist_wh_id, supplier_id=hist_sup_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ApiService.get_movements_filtered() got an unexpected keyword argument 'warehouse_id'
+Traceback (most recent call last):
+  File "E:\Emdad_system\views\receive_view.py", line 433, in _load_history
+    ok, movs = self.api_service.get_movements_filtered(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        movement_type='IN', warehouse_id=hist_wh_id, supplier_id=hist_sup_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ApiService.get_movements_filtered() got an unexpected keyword argument 'warehouse_id'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 348, in <lambda>
+    btn.clicked.connect(lambda checked=False, t=label: self._navigate(t))
+                                                       ~~~~~~~~~~~~~~^^^
+  File "E:\Emdad_system\main_window.py", line 501, in _navigate
+    panel.load_data()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\views\receive_view.py", line 522, in load_data
+    ok_sup, sups = self.api_service.get_suppliers()
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: ApiService.get_suppliers() missing 1 required positional argument: 'limit'
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from theme import COLORS
+ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "E:\Emdad_system\main_window.py", line 128, in show_lock_screen
+    from theme import COLORS
+ImportError: attempted relative import with no known parent package

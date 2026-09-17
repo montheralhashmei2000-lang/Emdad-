@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "E:\Emdad_system\main.py", line 114, in <module>
+    main()
+    ~~~~^^
+  File "E:\Emdad_system\main.py", line 104, in main
+    window = MainWindow()
+  File "E:\Emdad_system\ui\main_window.py", line 68, in __init__
+    self._init_ui()
+    ~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\ui\main_window.py", line 238, in _init_ui
+    self.sidebar = self._build_sidebar()
+                   ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Emdad_system\ui\main_window.py", line 335, in _build_sidebar
+    for label, icon_name in items:
+        ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2, got 3)
